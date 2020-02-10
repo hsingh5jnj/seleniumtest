@@ -63,7 +63,7 @@ public class excelextract {
 							
 							ar.add(val.getStringCellValue());
 							}else{
-								
+								System.out.println("something");
 								ar.add(NumberToTextConverter.toText(val.getNumericCellValue()));
 								
 							}
