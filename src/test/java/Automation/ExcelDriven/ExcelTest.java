@@ -9,7 +9,7 @@ public class ExcelTest {
 		
 		excelextract e= new excelextract();
 		
-		ArrayList some=e.excel("Rohit");
+		ArrayList some=e.excel("Harshit");
 		
 		System.out.println(some.get(0));
 		System.out.println(some.get(1));
